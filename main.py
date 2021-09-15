@@ -92,3 +92,12 @@ def topFiveClasses():
     print("Business Graphics")
 print ("These are my top 5 classes:")
 topFiveClasses()
+
+#define a function that outputs your name
+def myNameIs(turtle):
+
+    #output string
+    print(turtle + " is my name!")
+
+#run function
+myNameIs("Eva")
