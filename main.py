@@ -110,3 +110,30 @@ def timesTwo(panda):
 
 #run function
 timesTwo(8)
+
+#define function
+def plusFive(cow):
+
+    #output
+    print(cow + 5)
+
+#run function
+plusFive(8)
+
+#define function
+def dividedByTwo(horse):
+
+    #output
+    print(horse / 2)
+
+#run function
+dividedByTwo(8)
+
+#define function
+def addTwoNumbers(x, y):
+
+    #output
+    print(x + y)
+
+#run function
+addTwoNumbers(8, 8)
