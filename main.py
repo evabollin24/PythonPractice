@@ -137,3 +137,10 @@ def addTwoNumbers(x, y):
 
 #run function
 addTwoNumbers(8, 8)
+
+#define function
+def madLib(a, b, c, d, e):
+
+    print("I went on a " + a + "trip with my family this year. We usually go someplace that is near " + b + "or " + c + )
+
+madLib()
