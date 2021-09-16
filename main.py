@@ -14,7 +14,7 @@ def topFiveMovies():
 
     #print 5th movie
     print("Disney Movies")
-print ("These are my top 5 movies:")
+print("These are my top 5 movies:")
 topFiveMovies()
 
 #define function
@@ -33,7 +33,7 @@ def topFiveSports():
 
     #print 5th sport
     print("Basketball")
-print ("These are my top 5 sports:")
+print("These are my top 5 sports:")
 topFiveSports()
 
 #define function
@@ -52,7 +52,7 @@ def topFiveColors():
 
     #print 5th color
     print("Orange")
-print ("These are my top 5 colors:")
+print("These are my top 5 colors:")
 topFiveColors()
 
 #define function
@@ -71,7 +71,7 @@ def topFiveFoods():
 
     #print 5th food
     print("Pasta")
-print ("These are my top 5 foods:")
+print("These are my top 5 foods:")
 topFiveFoods()
 
 #define function
@@ -90,7 +90,7 @@ def topFiveClasses():
 
     #print 5th class
     print("Business Graphics")
-print ("These are my top 5 classes:")
+print("These are my top 5 classes:")
 topFiveClasses()
 
 #define a function that outputs your name
@@ -101,3 +101,12 @@ def myNameIs(turtle):
 
 #run function
 myNameIs("Eva")
+
+#define function
+def timesTwo(panda):
+
+    #output
+    print(panda * 2)
+
+#run function
+timesTwo(8)
