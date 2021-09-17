@@ -139,8 +139,10 @@ def addTwoNumbers(x, y):
 addTwoNumbers(8, 8)
 
 #define function
-def madLib(a, b, c, d, e):
+def madLib(adjective, place, placee, nounAnimal, adjectivee, nounFood, placeee, verb, adjectiveee):
 
-    print("I went on a " + a + "trip with my family this year. We usually go someplace that is near " + b + "or " + c + )
+    print("I went on a " + adjective + " trip with my family this year. We usually go someplace that is near " + place + " or " + placee + 
+    ", but we decided to mix it up this year. One morning I got to ride a " + nounAnimal + ". That was " + adjectivee + "! Another day we got up early and ate " + nounFood + 
+    ", then we went to the " + placeee + " to " + verb + ". It was " + adjectiveee + "! I can't wait for our vacation next year!")
 
-madLib()
+madLib("elegant", "Flordia", "Russia", "panther", "sad", "pasta", "Mcdonalds", "jump", "depressing")
