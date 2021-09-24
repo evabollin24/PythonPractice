@@ -1,19 +1,7 @@
-#define function
-def woof():
-    #return statment
-    return "woof"
+def greaterThanTen(x):
+    if(x > 10):
+        return("x is greater than 10!  :)")
+    else:
+        return("x is not greater than 10!  :(")
 
-print (woof())
-
-def cat():
-    return "cat"
-
-def dog():
-    return "dog"
-
-print(cat() + dog())
-
-def planet():
-    print (8)
-
-print(planet())
+print(greaterThanTen(15))
