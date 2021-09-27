@@ -1,9 +1,7 @@
-def equalsTen(x):
-    if (x == 10):
-        return "x equals 10!!!!"
-    elif (x > 10):
-        return "x is greater than 10"
+def favColor (color):
+    if color == "red":
+        return "your favorite color is red"
     else:
-        "x is less than 10..."
-
-print(equalsTen(10))
+        return "your favorite color is NOT red"
+    
+print(favColor("red"))
