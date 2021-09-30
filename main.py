@@ -1,20 +1,8 @@
-def twoBigNumbers(x, y):
-    if x > 10 and y > 10:
-        return True
-    else:
-        return False
-print(twoBigNumbers(30, 40))
+def function():
 
-def twoSmallNumbers(x, y):
-    if x < 10 or y < 10:
-        return True
-    else:
-        return False
-print(twoSmallNumbers(2, 3))
+    count = 5
 
-def twoBigNumberss(x, y):
-    if x > 10 or not y > 10:
-        return True
-    else:
-        return False
-print(twoBigNumberss(30, 40))
+    while count <= 100:
+        print(count)
+        count = count + 5
+function()
