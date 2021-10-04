@@ -1,6 +1,2 @@
-def spellingBee(w):
-    x = 0
-    while x < len(w):
-        print(w[x])
-        x = x + 1
-spellingBee("potato")
+for i in range(1, 11):
+    print(i)
