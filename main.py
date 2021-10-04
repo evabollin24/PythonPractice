@@ -1,3 +1,6 @@
-def lastLetter(w):
-    return w[len(w) - 1]
-print(lastLetter("potato"))
+def spellingBee(w):
+    x = 0
+    while x < len(w):
+        print(w[x])
+        x = x + 1
+spellingBee("potato")
